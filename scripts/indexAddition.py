@@ -1,7 +1,7 @@
 import csv
 
-csv_file = "../vol3-appendixB-allusions.csv"  # Allusions file
-index_file = "../index/index-csv/index-illustrations.csv"  # Index file
+csv_file = "output6.csv"  # Allusions file
+index_file = "../../3-DataExtraction/index/index-csv/index-works.csv"  # Index file
 newCsvlines = []
 
 # We parse the allusions file
@@ -32,17 +32,17 @@ with open(csv_file, 'r') as c:
                     print(author[0], i[3])
                     print('YES')
 
-                    if row[-1] == '':
-                        row[-1] = i[0] + "," + i[1] + "," + i[2]
+                    if row[-2] == '':
+                        row[-2] = i[0] + "," + i[1] + "," + i[2]
                     else:
-                        row[-1] = row[-1] + "/" + i[0] + "," + i[1] + "," + i[2]
+                        row[-2] = row[-2] + "/" + i[0] + "," + i[1] + "," + i[2]
                 else:
                     pass
 
         newCsvlines.append(row)  # The new rows are appended a list
 
         # We transform the list into a new CSV
-        with open('output2.csv', 'w', encoding='utf-8', newline='') as csvoutput:
+        with open('output7.csv', 'w', encoding='utf-8', newline='') as csvoutput:
             writer = csv.writer(csvoutput)
             writer.writerow(header)
             writer.writerows(newCsvlines)
