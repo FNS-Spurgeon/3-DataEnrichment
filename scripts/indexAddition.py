@@ -1,6 +1,6 @@
 import csv
 
-csv_file = "output8.csv"  # Allusions file
+csv_file = "output3.csv"  # Allusions file
 index_file = "../../3-DataExtraction/index/index-csv/index-works.csv"  # Index file
 newCsvlines = []
 
@@ -32,17 +32,17 @@ with open(csv_file, 'r') as c:
                     print(author[0], i[3])
                     print('YES')
 
-                    if row[-2] == '':
-                        row[-2] = i[0] + "," + i[1] + "," + i[2]
+                    if row[-1] == '':
+                        row[-1] = i[0] + "," + i[1] + "," + i[2]
                     else:
-                        row[-2] = row[-2] + "/" + i[0] + "," + i[1] + "," + i[2]
+                        row[-1] = row[-1] + "/" + i[0] + "," + i[1] + "," + i[2]
                 else:
                     pass
 
         newCsvlines.append(row)  # The new rows are appended a list
 
         # We transform the list into a new CSV
-        with open('output9.csv', 'w', encoding='utf-8', newline='') as csvoutput:
+        with open('output4.csv', 'w', encoding='utf-8', newline='') as csvoutput:
             writer = csv.writer(csvoutput)
             writer.writerow(header)
             writer.writerows(newCsvlines)
