@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6663cf2d-bb9a-4f41-bdfa-3f2afeff01a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/indexAddition.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/indexAddition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/languageDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/languageDetection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,7 @@
       <workItem from="1785165925139" duration="181000" />
       <workItem from="1785220628650" duration="1531000" />
       <workItem from="1787579342669" duration="5843000" />
+      <workItem from="1787641167857" duration="349000" />
     </task>
     <servers />
   </component>
