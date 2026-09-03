@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6663cf2d-bb9a-4f41-bdfa-3f2afeff01a2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/indexAddition.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/indexAddition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/languageDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/languageDetection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +59,8 @@
       <workItem from="1785165925139" duration="181000" />
       <workItem from="1785220628650" duration="1531000" />
       <workItem from="1787579342669" duration="5843000" />
-      <workItem from="1787641167857" duration="349000" />
+      <workItem from="1787641167857" duration="860000" />
+      <workItem from="1788357538029" duration="5355000" />
     </task>
     <servers />
   </component>
@@ -65,7 +68,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/3_DataEnrichment$languageDetection.coverage" NAME="languageDetection Coverage Results" MODIFIED="1785221548646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/3_DataEnrichment$indexAddition.coverage" NAME="indexAddition Coverage Results" MODIFIED="1787585157742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/3_DataEnrichment$indexAddition.coverage" NAME="indexAddition Coverage Results" MODIFIED="1788362769616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/3_DataEnrichment$languageDetection.coverage" NAME="languageDetection Coverage Results" MODIFIED="1788362889205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>
