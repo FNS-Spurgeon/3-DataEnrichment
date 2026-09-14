@@ -42,7 +42,7 @@ with open(csv_file, 'r') as c:
         newCsvlines.append(row)  # The new rows are appended a list
 
         # We transform the list into a new CSV
-        with open('output9.csv', 'w', encoding='utf-8', newline='') as csvoutput:
+        with open('1700-1750-allusions-enriched.csv', 'w', encoding='utf-8', newline='') as csvoutput:
             writer = csv.writer(csvoutput)
             writer.writerow(header)
             writer.writerows(newCsvlines)
